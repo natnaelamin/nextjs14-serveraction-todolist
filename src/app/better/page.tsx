@@ -37,7 +37,6 @@ async function Better() {
                 <input type="text" name="input" defaultValue={todo.input} className=" border rounded p-2 w-full bg-stone-900 "/>
                 <div className="flex gap-1">
                 <UpdateButton/>
-                
                 </div>
             </form>
             <form action={deleteItem} className="flex-grow">
