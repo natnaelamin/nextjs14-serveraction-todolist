@@ -29,7 +29,6 @@ async function Better() {
       <div className="w-[579px]"> 
         <FormElement/>
       </div>
-
       <div className="flex flex-col gap-y-2 text-white text-center">
         {data.map((todo)=>(
           <div key={todo.id} className="flex gap-1">
